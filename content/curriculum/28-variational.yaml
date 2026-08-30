@@ -1,0 +1,13 @@
+id: variational
+title: Variational Quantum Computing
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: parameterized-circuits
+    title: Parameterized Circuits
+    lessons: ["ansatz", "parameters", "cost-functions", "expectation-values"]
+  - id: optimization
+    title: Optimization
+    lessons: ["gradient-descent", "parameter-shift-rule", "finite-difference-vs-analytic-gradient"]
+  - id: algorithms
+    title: Algorithms
+    lessons: ["vqe", "qaoa", "barren-plateaus", "expressibility"]

@@ -1,0 +1,10 @@
+id: history
+title: History of Quantum Science
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: from-classical-physics-to-quantum-physics
+    title: From Classical Physics to Quantum Physics
+    lessons: ["blackbody-radiation", "photoelectric-effect", "de-broglie", "heisenberg", "schrodinger"]
+  - id: quantum-ideas-develop
+    title: Quantum Ideas Develop
+    lessons: ["bohr-model", "wavefunction", "born-interpretation", "dirac-notation-history"]

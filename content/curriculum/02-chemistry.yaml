@@ -1,0 +1,13 @@
+id: chemistry
+title: Quantum Chemistry
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: hamiltonians
+    title: Hamiltonians
+    lessons: ["second-quantization", "electronic-hamiltonian", "pauli-decomposition"]
+  - id: mappings
+    title: Mappings
+    lessons: ["jordan-wigner", "bravyi-kitaev"]
+  - id: algorithms
+    title: Algorithms
+    lessons: ["vqe-ground-state", "hamiltonian-simulation", "resource-estimation"]

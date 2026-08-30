@@ -1,0 +1,11 @@
+id: born-rule
+name: "Born rule"
+domain: measurement
+latex: "$P(i)=|\langle i|\psi\rangle|^2$"
+explanation: "Define the symbols, assumptions, units/conventions, and interpretation before applying the equation."
+derivation_steps:
+  - "State assumptions and basis."
+  - "Substitute the relevant representation."
+  - "Simplify one algebraic step at a time."
+  - "Check normalization, dimensions, or limiting behavior."
+visualization: "Link the equation to a dynamic visual state whenever possible."

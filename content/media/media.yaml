@@ -1,0 +1,10 @@
+version: 1
+assets:
+  - {id: bloch-intro, type: animation, path: visualizations/bloch-sphere-basic.yaml, status: code-scene}
+  - {id: bell-explainer, type: video, path: videos/algorithms/bell-explainer.mp4, status: planned}
+  - {id: teleportation-lecture, type: video, path: videos/entanglement/teleportation-lecture.mp4, status: planned}
+  - {id: grover-geometry, type: animation, path: visualizations/grover-geometry.yaml, status: code-scene}
+  - {id: quantum-eraser, type: video, path: videos/physics/quantum-eraser.mp4, status: planned}
+voice:
+  narration_format: segmented
+  segment_schema: {text: string, start_seconds: number, end_seconds: number, visual_action: string}

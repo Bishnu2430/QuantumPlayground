@@ -1,0 +1,13 @@
+id: compilation
+title: Quantum Compilation and Transpilation
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: mapping
+    title: Mapping
+    lessons: ["logical-vs-physical-qubits", "coupling-maps", "routing", "swap-insertion"]
+  - id: optimization
+    title: Optimization
+    lessons: ["gate-cancellation", "commutation", "template-optimization", "circuit-depth"]
+  - id: ir
+    title: IR
+    lessons: ["openqasm-overview", "qasm3-basics", "intermediate-representations"]

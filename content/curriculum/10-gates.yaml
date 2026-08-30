@@ -1,0 +1,13 @@
+id: gates
+title: Quantum Gates
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: single-qubit-gates
+    title: Single-Qubit Gates
+    lessons: ["x-gate", "y-gate", "z-gate", "h-gate", "s-gate", "t-gate", "sx-gate", "rx-gate", "ry-gate", "rz-gate"]
+  - id: multi-qubit-gates
+    title: Multi-Qubit Gates
+    lessons: ["cnot", "cz", "swap", "controlled-u", "toffoli", "fredkin"]
+  - id: universal-gates
+    title: Universal Gates
+    lessons: ["reversible-gates", "universal-gate-sets", "gate-decomposition", "euler-angle-decomposition"]

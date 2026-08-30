@@ -1,0 +1,15 @@
+id: noise-vs-circuit-depth
+title: "Noise vs Circuit Depth"
+domain: noise
+difficulty: Intermediate
+objective: "Make a prediction, run the experiment, compare with the prediction, and explain the result."
+qubits: 2
+core_operations: ["parameterized-circuit", "noise"]
+outputs: ["fidelity", "depth"]
+simulation:
+  default_backend: qiskit-aer
+  default_shots: 1024
+pedagogy:
+  phases: [predict, build, run, observe, explain, modify]
+  require_prediction: true
+ai_tools: [explain_experiment, inspect_circuit, run_circuit, compare_results, give_hint]

@@ -1,0 +1,20 @@
+id: qft-phase-flow
+title: "QFT Phase Flow"
+engine: react-three-fiber
+purpose: "Visualize phase-accumulation with synchronized state, circuit and explanatory annotations."
+interaction:
+  - play
+  - pause
+  - step
+  - reset
+  - inspect
+data_sources:
+  - quantum-engine
+  - lesson-state
+accessibility:
+  - keyboard-controls
+  - text-summary
+  - high-contrast-mode
+ai_hooks:
+  highlight: true
+  narration_events: true

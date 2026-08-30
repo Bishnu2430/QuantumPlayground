@@ -1,0 +1,13 @@
+id: qubits
+title: Qubits and Quantum States
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: single-qubit
+    title: Single Qubit
+    lessons: ["computational-basis", "qubit-state", "normalization", "global-phase", "relative-phase", "measurement-probability"]
+  - id: bloch-sphere
+    title: Bloch Sphere
+    lessons: ["bloch-sphere-intuition", "bloch-sphere-mathematics", "rotations-on-bloch-sphere", "gate-geometries"]
+  - id: state-representations
+    title: State Representations
+    lessons: ["ket-bra-notation", "statevector", "density-matrix-introduction"]

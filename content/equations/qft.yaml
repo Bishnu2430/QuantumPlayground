@@ -1,0 +1,11 @@
+id: qft
+name: "QFT"
+domain: algorithms
+latex: "$|x\rangle\mapsto\frac{1}{\sqrt N}\sum_{y=0}^{N-1}e^{2\pi ixy/N}|y\rangle$"
+explanation: "Define the symbols, assumptions, units/conventions, and interpretation before applying the equation."
+derivation_steps:
+  - "State assumptions and basis."
+  - "Substitute the relevant representation."
+  - "Simplify one algebraic step at a time."
+  - "Check normalization, dimensions, or limiting behavior."
+visualization: "Link the equation to a dynamic visual state whenever possible."

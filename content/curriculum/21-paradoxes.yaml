@@ -1,0 +1,10 @@
+id: paradoxes
+title: Quantum Paradoxes and Thought Experiments
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: classics
+    title: Classics
+    lessons: ["schrodinger-cat", "epr", "double-slit-thought-experiment", "stern-gerlach-thought-experiment"]
+  - id: modern
+    title: Modern
+    lessons: ["quantum-eraser", "delayed-choice", "wigners-friend", "quantum-zeno"]

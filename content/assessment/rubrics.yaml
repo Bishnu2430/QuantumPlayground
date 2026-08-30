@@ -1,0 +1,13 @@
+version: 1
+rubrics:
+  conceptual: [accuracy, reasoning, distinction-between-analogy-and-formalism, clarity]
+  mathematical: [definitions, derivation, algebra, assumptions, interpretation]
+  circuit: [correctness, qubit-ordering, gate-selection, measurement, interpretation]
+  coding: [correctness, readability, resource-awareness, reproducibility, testing]
+  debugging: [fault-identification, causal-explanation, fix, verification]
+mastery_bands:
+  - {id: 0, label: Not started, min: 0.0, max: 0.19}
+  - {id: 1, label: Emerging, min: 0.20, max: 0.39}
+  - {id: 2, label: Developing, min: 0.40, max: 0.59}
+  - {id: 3, label: Proficient, min: 0.60, max: 0.79}
+  - {id: 4, label: Advanced, min: 0.80, max: 1.00}

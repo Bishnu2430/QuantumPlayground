@@ -1,0 +1,43 @@
+version: 1
+challenge_types: [conceptual, circuit, coding, debugging, prediction, derivation, optimization]
+challenges:
+  - id: predict-h0
+    type: prediction
+    difficulty: beginner
+    prompt: Predict the measurement distribution of H|0>.
+    validation: {p0: 0.5, p1: 0.5}
+  - id: build-bell
+    type: circuit
+    difficulty: intermediate
+    prompt: Build Phi-plus from |00>.
+    validation: {fidelity_threshold: 0.999}
+  - id: debug-bell
+    type: debugging
+    difficulty: intermediate
+    prompt: Find the missing or misordered gate in a broken Bell-state circuit.
+    validation: {must_explain_fault: true}
+  - id: grover-iteration
+    type: coding
+    difficulty: advanced
+    prompt: Implement one complete Grover iteration for a two-qubit search.
+    validation: {compare_statevector: true}
+  - id: qft-three-qubits
+    type: coding
+    difficulty: advanced
+    prompt: Implement a three-qubit QFT from elementary gates.
+    validation: {global_phase_aware: true}
+  - id: teleportation-proof
+    type: derivation
+    difficulty: advanced
+    prompt: Derive the teleportation identity and identify the four correction operators.
+    validation: {rubric: proof}
+  - id: noise-analysis
+    type: experiment
+    difficulty: intermediate
+    prompt: Determine how increasing depolarizing noise changes Bell-state fidelity.
+    validation: {trend_correct: true}
+  - id: qaoa-maxcut
+    type: coding
+    difficulty: advanced
+    prompt: Build and optimize a p=1 QAOA circuit for a four-node MaxCut instance.
+    validation: {objective_improves: true}

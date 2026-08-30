@@ -1,0 +1,10 @@
+id: physics
+title: Quantum Physics for Computer Scientists
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: quantum-phenomena
+    title: Quantum Phenomena
+    lessons: ["double-slit", "mach-zehnder", "stern-gerlach", "polarization", "uncertainty", "tunneling", "quantum-eraser"]
+  - id: measurement-and-reality
+    title: Measurement and Reality
+    lessons: ["measurement-problem", "wavefunction-collapse", "interpretations-overview"]

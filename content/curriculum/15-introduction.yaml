@@ -1,0 +1,13 @@
+id: introduction
+title: Introduction to Quantum Computing
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: what-is-computation
+    title: What Is Computation?
+    lessons: ["classical-bits-and-logic", "reversible-computation", "why-quantum"]
+  - id: quantum-computing-overview
+    title: Quantum Computing Overview
+    lessons: ["qubit-in-one-minute", "circuit-model", "quantum-advantage", "nisq-and-fault-tolerance"]
+  - id: first-quantum-experiment
+    title: First Quantum Experiment
+    lessons: ["first-qiskit-circuit", "first-superposition", "first-measurement"]

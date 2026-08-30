@@ -1,0 +1,11 @@
+id: normalization
+name: "Normalization"
+domain: qubits
+latex: "$|\alpha|^2+|\beta|^2=1$"
+explanation: "Define the symbols, assumptions, units/conventions, and interpretation before applying the equation."
+derivation_steps:
+  - "State assumptions and basis."
+  - "Substitute the relevant representation."
+  - "Simplify one algebraic step at a time."
+  - "Check normalization, dimensions, or limiting behavior."
+visualization: "Link the equation to a dynamic visual state whenever possible."

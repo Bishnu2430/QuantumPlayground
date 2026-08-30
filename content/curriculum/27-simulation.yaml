@@ -1,0 +1,13 @@
+id: simulation
+title: Quantum Simulation
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: basics
+    title: Basics
+    lessons: ["why-quantum-simulation", "digital-vs-analog", "hamiltonian-simulation"]
+  - id: trotterization
+    title: Trotterization
+    lessons: ["product-formula", "first-order-trotter", "higher-order-formulas"]
+  - id: models
+    title: Models
+    lessons: ["ising-model", "spin-systems", "fermionic-models"]

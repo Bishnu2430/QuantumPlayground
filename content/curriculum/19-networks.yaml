@@ -1,0 +1,13 @@
+id: networks
+title: Quantum Communication and Networks
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: protocols
+    title: Protocols
+    lessons: ["teleportation-network", "superdense-coding-network", "entanglement-distribution"]
+  - id: repeaters
+    title: Repeaters
+    lessons: ["repeater-problem", "entanglement-swapping-network", "entanglement-purification"]
+  - id: quantum-internet
+    title: Quantum Internet
+    lessons: ["quantum-network-stack", "distributed-quantum-computing", "network-routing"]

@@ -1,0 +1,22 @@
+id: algorithms
+title: Quantum Algorithms
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: oracle-algorithms
+    title: Oracle Algorithms
+    lessons: ["deutsch", "deutsch-jozsa", "bernstein-vazirani", "simon"]
+  - id: search
+    title: Search
+    lessons: ["grover-intuition", "grover-oracle", "grover-diffusion", "grover-geometry", "grover-complexity", "amplitude-amplification"]
+  - id: fourier
+    title: Fourier
+    lessons: ["classical-fourier-review", "qft", "qft-circuit", "qft-swaps", "phase-kickback"]
+  - id: phase-estimation
+    title: Phase Estimation
+    lessons: ["phase-estimation", "inverse-qft", "iterative-phase-estimation"]
+  - id: factoring
+    title: Factoring
+    lessons: ["modular-arithmetic", "order-finding", "shor", "rsa-and-shor"]
+  - id: other-algorithms
+    title: Other Algorithms
+    lessons: ["quantum-walks", "quantum-counting", "hidden-subgroup-problem", "hhl-overview"]

@@ -1,0 +1,15 @@
+id: qaoa-maxcut
+title: "QAOA MaxCut"
+domain: variational
+difficulty: Advanced
+objective: "Make a prediction, run the experiment, compare with the prediction, and explain the result."
+qubits: 4
+core_operations: ["ansatz", "cost-Hamiltonian", "optimizer"]
+outputs: ["objective", "bitstring-probabilities"]
+simulation:
+  default_backend: qiskit-aer
+  default_shots: 1024
+pedagogy:
+  phases: [predict, build, run, observe, explain, modify]
+  require_prediction: true
+ai_tools: [explain_experiment, inspect_circuit, run_circuit, compare_results, give_hint]

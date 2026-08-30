@@ -1,0 +1,13 @@
+id: information-theory
+title: Quantum Information Theory
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: entropy
+    title: Entropy
+    lessons: ["shannon-entropy", "von-neumann-entropy", "mutual-information", "relative-entropy"]
+  - id: channels
+    title: Channels
+    lessons: ["cptp-maps", "kraus-operators", "channel-capacity", "holevo-bound"]
+  - id: limits
+    title: Limits
+    lessons: ["no-cloning", "no-deleting", "data-processing-inequality"]

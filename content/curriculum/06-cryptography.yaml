@@ -1,0 +1,13 @@
+id: cryptography
+title: Quantum Cryptography
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: qkd
+    title: QKD
+    lessons: ["bb84", "e91", "intercept-resend", "qkd-error-rates"]
+  - id: quantum-randomness
+    title: Quantum Randomness
+    lessons: ["quantum-random-number-generation", "randomness-extraction"]
+  - id: post-quantum
+    title: Post-Quantum
+    lessons: ["quantum-threat-model", "lattice-cryptography-overview", "pqc-vs-qkd"]

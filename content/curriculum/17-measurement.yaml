@@ -1,0 +1,13 @@
+id: measurement
+title: Quantum Measurement
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: core
+    title: Core
+    lessons: ["born-rule", "projective-measurement", "measurement-collapse", "repeated-measurement"]
+  - id: bases
+    title: Bases
+    lessons: ["z-basis-measurement", "x-basis-measurement", "y-basis-measurement", "basis-change-before-measurement"]
+  - id: advanced
+    title: Advanced
+    lessons: ["observables", "expectation-values", "povms", "weak-measurement", "quantum-tomography"]

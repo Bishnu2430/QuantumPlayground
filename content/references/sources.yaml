@@ -1,0 +1,16 @@
+version: 1
+policy:
+  primary_sources: [peer-reviewed papers, official standards, official SDK documentation, university/open educational resources]
+  secondary_sources: [reputable textbooks, review articles, popular science]
+  rule: Use source metadata and citations; never copy copyrighted full text without permission.
+references:
+  - {id: nielsen-chuang, type: book, title: Quantum Computation and Quantum Information, authors: [Michael A. Nielsen, Isaac L. Chuang], role: formal reference}
+  - {id: gentle-introduction, type: book, title: Quantum Computing: A Gentle Introduction, authors: [Eleanor G. Rieffel, Wolfgang H. Polak], role: pedagogical reference}
+  - {id: schrodingers-cat, type: book, title: In Search of Schrödinger's Cat, authors: [John Gribbin], role: historical and intuitive context}
+  - {id: qiskit-docs, type: official-documentation, title: IBM Quantum Documentation, role: software reference}
+  - {id: qiskit-aer, type: official-documentation, title: Qiskit Aer Documentation, role: simulation reference}
+  - {id: pennylane-codebook, type: educational-platform, title: PennyLane Codebook, role: curriculum benchmarking}
+  - {id: quirk, type: software, title: Quirk Quantum Circuit Simulator, role: interactive visualization benchmarking}
+  - {id: openqasm3, type: specification, title: OpenQASM 3, role: interoperability reference}
+  - {id: preskill-notes, type: open-education, title: Lecture Notes for Ph219/CS219 Quantum Computation, author: John Preskill, role: advanced reference}
+  - {id: nielsen-chuang-bell, type: book-section, title: Bell states and quantum information, role: entanglement reference}

@@ -1,0 +1,13 @@
+id: entanglement
+title: Entanglement
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: bell
+    title: Bell
+    lessons: ["bell-states", "bell-circuit", "chsh-inequality", "bell-test"]
+  - id: protocols
+    title: Protocols
+    lessons: ["teleportation", "superdense-coding", "entanglement-swapping"]
+  - id: theory
+    title: Theory
+    lessons: ["reduced-density-matrix", "entanglement-entropy", "concurrence", "monogamy-of-entanglement"]

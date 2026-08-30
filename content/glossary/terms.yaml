@@ -1,0 +1,182 @@
+version: 1
+terms:
+  - id: qubit
+    term: "Qubit"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: superposition
+    term: "Superposition"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: amplitude
+    term: "Amplitude"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: phase
+    term: "Phase"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: relative-phase
+    term: "Relative Phase"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: measurement
+    term: "Measurement"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: born-rule
+    term: "Born Rule"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: statevector
+    term: "Statevector"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: density-matrix
+    term: "Density Matrix"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: unitary
+    term: "Unitary"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: hermitian
+    term: "Hermitian"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: observable
+    term: "Observable"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: entanglement
+    term: "Entanglement"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: bell-state
+    term: "Bell State"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: teleportation
+    term: "Teleportation"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: decoherence
+    term: "Decoherence"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: noise
+    term: "Noise"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: nisq
+    term: "Nisq"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: qpu
+    term: "Qpu"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: transpilation
+    term: "Transpilation"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: circuit-depth
+    term: "Circuit Depth"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: quantum-fourier-transform
+    term: "Quantum Fourier Transform"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: phase-estimation
+    term: "Phase Estimation"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: grover
+    term: "Grover"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: shor
+    term: "Shor"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: qaoa
+    term: "Qaoa"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: vqe
+    term: "Vqe"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: quantum-error-correction
+    term: "Quantum Error Correction"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: stabilizer
+    term: "Stabilizer"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: surface-code
+    term: "Surface Code"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: quantum-key-distribution
+    term: "Quantum Key Distribution"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: qkd
+    term: "Qkd"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: quantum-channel
+    term: "Quantum Channel"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: kraus-operator
+    term: "Kraus Operator"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: von-neumann-entropy
+    term: "Von Neumann Entropy"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []
+  - id: quantum-sensing
+    term: "Quantum Sensing"
+    one_line: "Definition should be concise, technically correct, and written for first exposure."
+    pronunciation: "Provide pronunciation metadata when useful."
+    related: []

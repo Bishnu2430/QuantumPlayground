@@ -1,0 +1,13 @@
+id: programming
+title: Quantum Programming
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: qiskit
+    title: Qiskit
+    lessons: ["qiskit-installation", "quantum-circuit-api", "aer-simulation", "statevector-simulation", "sampler-workflow", "estimator-workflow", "transpiler-api"]
+  - id: interoperability
+    title: Interoperability
+    lessons: ["pennylane-overview", "cirq-overview", "openqasm"]
+  - id: software-engineering
+    title: Software Engineering
+    lessons: ["circuit-testing", "reproducibility", "resource-estimation", "experiment-tracking"]

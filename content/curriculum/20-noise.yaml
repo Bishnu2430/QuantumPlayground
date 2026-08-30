@@ -1,0 +1,13 @@
+id: noise
+title: Noise and NISQ Computing
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: channels
+    title: Channels
+    lessons: ["quantum-channels", "depolarizing-channel", "bit-flip-channel", "phase-flip-channel", "amplitude-damping-channel", "thermal-relaxation"]
+  - id: mitigation
+    title: Mitigation
+    lessons: ["zero-noise-extrapolation", "probabilistic-error-cancellation", "dynamical-decoupling", "readout-mitigation"]
+  - id: experiments
+    title: Experiments
+    lessons: ["ideal-vs-noisy-bell", "noisy-grover", "noise-vs-circuit-depth"]

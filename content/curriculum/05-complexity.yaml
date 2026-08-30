@@ -1,0 +1,13 @@
+id: complexity
+title: Quantum Complexity Theory
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: classes
+    title: Classes
+    lessons: ["p-and-np", "bpp", "bqp", "qma"]
+  - id: query
+    title: Query
+    lessons: ["oracle-model", "query-complexity", "grover-optimality"]
+  - id: limits
+    title: Limits
+    lessons: ["speedup-taxonomy", "input-output-bottlenecks"]

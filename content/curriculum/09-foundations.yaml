@@ -1,0 +1,10 @@
+id: foundations
+title: Foundations and Interpretations
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: interpretations
+    title: Interpretations
+    lessons: ["copenhagen", "many-worlds", "pilot-wave", "objective-collapse", "qbism", "relational-qm"]
+  - id: results
+    title: Results
+    lessons: ["bell-theorem", "kochen-specker", "contextuality"]

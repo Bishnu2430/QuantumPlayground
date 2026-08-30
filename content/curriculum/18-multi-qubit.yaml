@@ -1,0 +1,10 @@
+id: multi-qubit
+title: Multi-Qubit Systems
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: composite-systems
+    title: Composite Systems
+    lessons: ["tensor-products-for-qubits", "product-states", "correlated-states"]
+  - id: entangled-states
+    title: Entangled States
+    lessons: ["bell-states", "ghz-state", "w-state", "schmidt-decomposition", "schmidt-rank"]

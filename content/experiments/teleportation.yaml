@@ -1,0 +1,15 @@
+id: teleportation
+title: "Quantum Teleportation Lab"
+domain: entanglement
+difficulty: Advanced
+objective: "Make a prediction, run the experiment, compare with the prediction, and explain the result."
+qubits: 3
+core_operations: ["H", "CX", "measure", "classical-correction"]
+outputs: ["statevector", "fidelity", "timeline"]
+simulation:
+  default_backend: qiskit-aer
+  default_shots: 1024
+pedagogy:
+  phases: [predict, build, run, observe, explain, modify]
+  require_prediction: true
+ai_tools: [explain_experiment, inspect_circuit, run_circuit, compare_results, give_hint]

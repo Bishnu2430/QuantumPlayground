@@ -1,0 +1,13 @@
+id: circuits
+title: Quantum Circuits
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: circuit-basics
+    title: Circuit Basics
+    lessons: ["wires-and-registers", "moments-and-order", "circuit-depth", "circuit-width", "measurements"]
+  - id: programming
+    title: Programming
+    lessons: ["qiskit-quantum-circuit", "circuit-composition", "classical-conditions", "circuit-visualization"]
+  - id: execution
+    title: Execution
+    lessons: ["backend-concepts", "transpilation-preview", "shots-and-sampling", "seeds-and-reproducibility"]

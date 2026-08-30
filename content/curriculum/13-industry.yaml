@@ -1,0 +1,13 @@
+id: industry
+title: Applications and Industry
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: applications
+    title: Applications
+    lessons: ["chemistry-and-materials", "optimization", "cryptography", "simulation", "sensing", "finance", "logistics"]
+  - id: readiness
+    title: Readiness
+    lessons: ["when-to-use-quantum", "classical-baselines", "benchmarking", "total-cost-of-ownership"]
+  - id: careers
+    title: Careers
+    lessons: ["quantum-software-engineer", "quantum-algorithm-researcher", "quantum-hardware", "quantum-information-science"]

@@ -1,0 +1,10 @@
+version: 1
+levels:
+  - {id: intuitive, label: Intuitive, order: 1}
+  - {id: foundational, label: Foundational, order: 2}
+  - {id: mathematical, label: Mathematical, order: 3}
+  - {id: computational, label: Computational, order: 4}
+  - {id: advanced, label: Advanced, order: 5}
+  - {id: research, label: Research, order: 6}
+audiences: [beginner, high-school, undergraduate, graduate, engineer, physicist, researcher, instructor]
+content_types: [lesson, concept, proof, algorithm, experiment, challenge, equation, visualization, glossary, timeline, case-study]

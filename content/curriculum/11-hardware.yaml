@@ -1,0 +1,13 @@
+id: hardware
+title: Quantum Hardware
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: platforms
+    title: Platforms
+    lessons: ["superconducting", "trapped-ion", "neutral-atom", "photonic", "spin-qubits", "quantum-dots", "nv-centers"]
+  - id: device-metrics
+    title: Device Metrics
+    lessons: ["t1-and-t2", "gate-fidelity", "readout-error", "coherence", "crosstalk", "connectivity"]
+  - id: infrastructure
+    title: Infrastructure
+    lessons: ["dilution-refrigerators", "control-electronics", "microwave-control", "lasers-and-optics"]

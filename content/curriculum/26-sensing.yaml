@@ -1,0 +1,10 @@
+id: sensing
+title: Quantum Sensing and Metrology
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: sensors
+    title: Sensors
+    lessons: ["atomic-clocks", "magnetometry", "gravimetry", "interferometry"]
+  - id: metrology
+    title: Metrology
+    lessons: ["standard-quantum-limit", "squeezed-states", "heisenberg-limit"]

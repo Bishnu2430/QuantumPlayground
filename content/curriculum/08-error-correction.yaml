@@ -1,0 +1,16 @@
+id: error-correction
+title: Quantum Error Correction
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: noise
+    title: Noise
+    lessons: ["bit-flip-error", "phase-flip-error", "depolarizing-error", "amplitude-damping"]
+  - id: codes
+    title: Codes
+    lessons: ["three-qubit-bit-flip-code", "three-qubit-phase-flip-code", "shor-code", "steane-code"]
+  - id: stabilizers
+    title: Stabilizers
+    lessons: ["stabilizer-states", "stabilizer-generators", "syndrome-measurement"]
+  - id: surface-codes
+    title: Surface Codes
+    lessons: ["surface-code-intuition", "logical-qubit", "threshold-concept", "fault-tolerance"]

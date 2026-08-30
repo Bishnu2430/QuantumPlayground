@@ -1,0 +1,19 @@
+id: mathematics
+title: Mathematical Foundations
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: complex-numbers
+    title: Complex Numbers
+    lessons: ["complex-plane", "magnitude-and-phase", "euler-formula", "complex-conjugation"]
+  - id: linear-algebra
+    title: Linear Algebra
+    lessons: ["vectors", "inner-products", "orthogonality", "basis", "matrices", "matrix-multiplication", "eigenvalues", "eigenvectors", "diagonalization", "hermitian-matrices", "unitary-matrices", "adjoint"]
+  - id: tensor-products
+    title: Tensor Products
+    lessons: ["kronecker-product", "tensor-product-states", "operator-tensor-products"]
+  - id: probability
+    title: Probability
+    lessons: ["discrete-probability", "conditional-probability", "probability-distributions", "expectation-and-variance"]
+  - id: calculus
+    title: Calculus
+    lessons: ["derivatives", "partial-derivatives", "gradients", "complex-exponentials"]

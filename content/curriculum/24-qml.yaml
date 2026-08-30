@@ -1,0 +1,13 @@
+id: qml
+title: Quantum Machine Learning
+description: Structured learning domain for Quantum Lab.
+modules:
+  - id: encoding
+    title: Encoding
+    lessons: ["basis-encoding", "angle-encoding", "amplitude-encoding", "feature-maps"]
+  - id: models
+    title: Models
+    lessons: ["quantum-kernels", "qsvc", "variational-classifier", "quantum-neural-networks", "quantum-convolutional-networks"]
+  - id: evidence-and-limits
+    title: Evidence and Limits
+    lessons: ["where-qml-helps", "qml-resource-costs", "benchmarking-qml"]
