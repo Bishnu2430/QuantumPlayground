@@ -1,0 +1,25 @@
+id: viz-no-cloning
+title: No Cloning
+theme: ../theme/nord-matte.yaml
+renderer: equation
+summary: Proof sketch with impossible copier diagram.
+linkedEquation: content/equations/no-cloning.yaml
+visualLayers:
+  - proof-flow
+interaction:
+  controls:
+    - play-pause
+    - reset
+    - explain-with-copilot
+  accessibility:
+    keyboard: true
+    reducedMotion: true
+    alt: Proof sketch with impossible copier diagram.
+dataBindings:
+  simulationResult: optional
+  quantumCircuit: optional
+  equationParameters: optional
+style:
+  surface: matte-glass-card
+  labelTreatment: bright-accent-labels
+  depth: subtle-layered-shadows

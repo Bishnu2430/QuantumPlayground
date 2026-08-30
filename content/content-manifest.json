@@ -7,5 +7,12 @@
   "visualization_count": 12,
   "challenge_count": 8,
   "glossary_terms": 36,
-  "equation_count": 15
+  "equation_count": 15,
+  "visualSystem": {
+    "theme": "content/visualizations/theme/nord-matte.yaml",
+    "catalog": "content/visualizations/catalog.yaml",
+    "equationManifest": "content/equations/visual-equation-manifest.yaml",
+    "qiskitExamples": "content/code-runner/qiskit-examples.yaml",
+    "storyboards": "content/videos/storyboards/"
+  }
 }

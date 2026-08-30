@@ -1,0 +1,1392 @@
+id: content-visual-catalog
+version: 1
+generatedFrom: content/lessons
+lessons:
+  - id: algorithms/amplitude-amplification
+    lesson: content/lessons/algorithms/amplitude-amplification.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/bernstein-vazirani
+    lesson: content/lessons/algorithms/bernstein-vazirani.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/classical-fourier-review
+    lesson: content/lessons/algorithms/classical-fourier-review.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/deutsch-jozsa
+    lesson: content/lessons/algorithms/deutsch-jozsa.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/deutsch
+    lesson: content/lessons/algorithms/deutsch.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/grover-complexity
+    lesson: content/lessons/algorithms/grover-complexity.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/grover-diffusion
+    lesson: content/lessons/algorithms/grover-diffusion.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/grover-geometry
+    lesson: content/lessons/algorithms/grover-geometry.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/grover-intuition
+    lesson: content/lessons/algorithms/grover-intuition.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/grover-oracle
+    lesson: content/lessons/algorithms/grover-oracle.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/hhl-overview
+    lesson: content/lessons/algorithms/hhl-overview.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/hidden-subgroup-problem
+    lesson: content/lessons/algorithms/hidden-subgroup-problem.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/inverse-qft
+    lesson: content/lessons/algorithms/inverse-qft.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/iterative-phase-estimation
+    lesson: content/lessons/algorithms/iterative-phase-estimation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/modular-arithmetic
+    lesson: content/lessons/algorithms/modular-arithmetic.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/order-finding
+    lesson: content/lessons/algorithms/order-finding.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/phase-estimation
+    lesson: content/lessons/algorithms/phase-estimation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/phase-kickback
+    lesson: content/lessons/algorithms/phase-kickback.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/qft-circuit
+    lesson: content/lessons/algorithms/qft-circuit.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/qft-swaps
+    lesson: content/lessons/algorithms/qft-swaps.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/qft
+    lesson: content/lessons/algorithms/qft.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/quantum-counting
+    lesson: content/lessons/algorithms/quantum-counting.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/quantum-walks
+    lesson: content/lessons/algorithms/quantum-walks.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/rsa-and-shor
+    lesson: content/lessons/algorithms/rsa-and-shor.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/shor
+    lesson: content/lessons/algorithms/shor.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: algorithms/simon
+    lesson: content/lessons/algorithms/simon.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: chemistry/bravyi-kitaev
+    lesson: content/lessons/chemistry/bravyi-kitaev.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: chemistry/electronic-hamiltonian
+    lesson: content/lessons/chemistry/electronic-hamiltonian.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: chemistry/hamiltonian-simulation
+    lesson: content/lessons/chemistry/hamiltonian-simulation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: chemistry/jordan-wigner
+    lesson: content/lessons/chemistry/jordan-wigner.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: chemistry/pauli-decomposition
+    lesson: content/lessons/chemistry/pauli-decomposition.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: chemistry/resource-estimation
+    lesson: content/lessons/chemistry/resource-estimation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: chemistry/second-quantization
+    lesson: content/lessons/chemistry/second-quantization.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: chemistry/vqe-ground-state
+    lesson: content/lessons/chemistry/vqe-ground-state.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/backend-concepts
+    lesson: content/lessons/circuits/backend-concepts.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/circuit-composition
+    lesson: content/lessons/circuits/circuit-composition.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/circuit-depth
+    lesson: content/lessons/circuits/circuit-depth.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/circuit-visualization
+    lesson: content/lessons/circuits/circuit-visualization.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/circuit-width
+    lesson: content/lessons/circuits/circuit-width.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/classical-conditions
+    lesson: content/lessons/circuits/classical-conditions.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/measurements
+    lesson: content/lessons/circuits/measurements.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/moments-and-order
+    lesson: content/lessons/circuits/moments-and-order.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/qiskit-quantum-circuit
+    lesson: content/lessons/circuits/qiskit-quantum-circuit.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/seeds-and-reproducibility
+    lesson: content/lessons/circuits/seeds-and-reproducibility.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/shots-and-sampling
+    lesson: content/lessons/circuits/shots-and-sampling.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/transpilation-preview
+    lesson: content/lessons/circuits/transpilation-preview.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: circuits/wires-and-registers
+    lesson: content/lessons/circuits/wires-and-registers.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/circuit-depth
+    lesson: content/lessons/compilation/circuit-depth.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/commutation
+    lesson: content/lessons/compilation/commutation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/coupling-maps
+    lesson: content/lessons/compilation/coupling-maps.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/gate-cancellation
+    lesson: content/lessons/compilation/gate-cancellation.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/intermediate-representations
+    lesson: content/lessons/compilation/intermediate-representations.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/logical-vs-physical-qubits
+    lesson: content/lessons/compilation/logical-vs-physical-qubits.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/openqasm-overview
+    lesson: content/lessons/compilation/openqasm-overview.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/qasm3-basics
+    lesson: content/lessons/compilation/qasm3-basics.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/routing
+    lesson: content/lessons/compilation/routing.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/swap-insertion
+    lesson: content/lessons/compilation/swap-insertion.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: compilation/template-optimization
+    lesson: content/lessons/compilation/template-optimization.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: complexity/bpp
+    lesson: content/lessons/complexity/bpp.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: complexity/bqp
+    lesson: content/lessons/complexity/bqp.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: complexity/grover-optimality
+    lesson: content/lessons/complexity/grover-optimality.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: complexity/input-output-bottlenecks
+    lesson: content/lessons/complexity/input-output-bottlenecks.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: complexity/oracle-model
+    lesson: content/lessons/complexity/oracle-model.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: complexity/p-and-np
+    lesson: content/lessons/complexity/p-and-np.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: complexity/qma
+    lesson: content/lessons/complexity/qma.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: complexity/query-complexity
+    lesson: content/lessons/complexity/query-complexity.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: complexity/speedup-taxonomy
+    lesson: content/lessons/complexity/speedup-taxonomy.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: cryptography/bb84
+    lesson: content/lessons/cryptography/bb84.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: cryptography/e91
+    lesson: content/lessons/cryptography/e91.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: cryptography/intercept-resend
+    lesson: content/lessons/cryptography/intercept-resend.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: cryptography/lattice-cryptography-overview
+    lesson: content/lessons/cryptography/lattice-cryptography-overview.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: cryptography/pqc-vs-qkd
+    lesson: content/lessons/cryptography/pqc-vs-qkd.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: cryptography/qkd-error-rates
+    lesson: content/lessons/cryptography/qkd-error-rates.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: cryptography/quantum-random-number-generation
+    lesson: content/lessons/cryptography/quantum-random-number-generation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: cryptography/quantum-threat-model
+    lesson: content/lessons/cryptography/quantum-threat-model.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: cryptography/randomness-extraction
+    lesson: content/lessons/cryptography/randomness-extraction.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/bell-circuit
+    lesson: content/lessons/entanglement/bell-circuit.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/bell-states
+    lesson: content/lessons/entanglement/bell-states.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/bell-test
+    lesson: content/lessons/entanglement/bell-test.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/chsh-inequality
+    lesson: content/lessons/entanglement/chsh-inequality.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/concurrence
+    lesson: content/lessons/entanglement/concurrence.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/entanglement-entropy
+    lesson: content/lessons/entanglement/entanglement-entropy.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/entanglement-swapping
+    lesson: content/lessons/entanglement/entanglement-swapping.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/monogamy-of-entanglement
+    lesson: content/lessons/entanglement/monogamy-of-entanglement.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/reduced-density-matrix
+    lesson: content/lessons/entanglement/reduced-density-matrix.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/superdense-coding
+    lesson: content/lessons/entanglement/superdense-coding.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: entanglement/teleportation
+    lesson: content/lessons/entanglement/teleportation.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/amplitude-damping
+    lesson: content/lessons/error-correction/amplitude-damping.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/bit-flip-error
+    lesson: content/lessons/error-correction/bit-flip-error.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/depolarizing-error
+    lesson: content/lessons/error-correction/depolarizing-error.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/fault-tolerance
+    lesson: content/lessons/error-correction/fault-tolerance.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/logical-qubit
+    lesson: content/lessons/error-correction/logical-qubit.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/phase-flip-error
+    lesson: content/lessons/error-correction/phase-flip-error.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/shor-code
+    lesson: content/lessons/error-correction/shor-code.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/stabilizer-generators
+    lesson: content/lessons/error-correction/stabilizer-generators.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/stabilizer-states
+    lesson: content/lessons/error-correction/stabilizer-states.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/steane-code
+    lesson: content/lessons/error-correction/steane-code.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/surface-code-intuition
+    lesson: content/lessons/error-correction/surface-code-intuition.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/syndrome-measurement
+    lesson: content/lessons/error-correction/syndrome-measurement.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/three-qubit-bit-flip-code
+    lesson: content/lessons/error-correction/three-qubit-bit-flip-code.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/three-qubit-phase-flip-code
+    lesson: content/lessons/error-correction/three-qubit-phase-flip-code.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: error-correction/threshold-concept
+    lesson: content/lessons/error-correction/threshold-concept.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: foundations/bell-theorem
+    lesson: content/lessons/foundations/bell-theorem.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: foundations/contextuality
+    lesson: content/lessons/foundations/contextuality.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: foundations/copenhagen
+    lesson: content/lessons/foundations/copenhagen.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: foundations/kochen-specker
+    lesson: content/lessons/foundations/kochen-specker.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: foundations/many-worlds
+    lesson: content/lessons/foundations/many-worlds.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: foundations/objective-collapse
+    lesson: content/lessons/foundations/objective-collapse.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: foundations/pilot-wave
+    lesson: content/lessons/foundations/pilot-wave.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: foundations/qbism
+    lesson: content/lessons/foundations/qbism.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: foundations/relational-qm
+    lesson: content/lessons/foundations/relational-qm.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/cnot
+    lesson: content/lessons/gates/cnot.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/controlled-u
+    lesson: content/lessons/gates/controlled-u.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/cz
+    lesson: content/lessons/gates/cz.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/euler-angle-decomposition
+    lesson: content/lessons/gates/euler-angle-decomposition.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/fredkin
+    lesson: content/lessons/gates/fredkin.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/gate-decomposition
+    lesson: content/lessons/gates/gate-decomposition.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/h-gate
+    lesson: content/lessons/gates/h-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/reversible-gates
+    lesson: content/lessons/gates/reversible-gates.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/rx-gate
+    lesson: content/lessons/gates/rx-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/ry-gate
+    lesson: content/lessons/gates/ry-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/rz-gate
+    lesson: content/lessons/gates/rz-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/s-gate
+    lesson: content/lessons/gates/s-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/swap
+    lesson: content/lessons/gates/swap.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/sx-gate
+    lesson: content/lessons/gates/sx-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/t-gate
+    lesson: content/lessons/gates/t-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/toffoli
+    lesson: content/lessons/gates/toffoli.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/universal-gate-sets
+    lesson: content/lessons/gates/universal-gate-sets.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/x-gate
+    lesson: content/lessons/gates/x-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/y-gate
+    lesson: content/lessons/gates/y-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: gates/z-gate
+    lesson: content/lessons/gates/z-gate.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/coherence
+    lesson: content/lessons/hardware/coherence.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/connectivity
+    lesson: content/lessons/hardware/connectivity.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/control-electronics
+    lesson: content/lessons/hardware/control-electronics.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/crosstalk
+    lesson: content/lessons/hardware/crosstalk.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/dilution-refrigerators
+    lesson: content/lessons/hardware/dilution-refrigerators.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/gate-fidelity
+    lesson: content/lessons/hardware/gate-fidelity.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/lasers-and-optics
+    lesson: content/lessons/hardware/lasers-and-optics.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/microwave-control
+    lesson: content/lessons/hardware/microwave-control.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/neutral-atom
+    lesson: content/lessons/hardware/neutral-atom.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/nv-centers
+    lesson: content/lessons/hardware/nv-centers.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/photonic
+    lesson: content/lessons/hardware/photonic.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/quantum-dots
+    lesson: content/lessons/hardware/quantum-dots.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/readout-error
+    lesson: content/lessons/hardware/readout-error.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/spin-qubits
+    lesson: content/lessons/hardware/spin-qubits.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/superconducting
+    lesson: content/lessons/hardware/superconducting.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/t1-and-t2
+    lesson: content/lessons/hardware/t1-and-t2.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: hardware/trapped-ion
+    lesson: content/lessons/hardware/trapped-ion.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: history/blackbody-radiation
+    lesson: content/lessons/history/blackbody-radiation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: history/bohr-model
+    lesson: content/lessons/history/bohr-model.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: history/born-interpretation
+    lesson: content/lessons/history/born-interpretation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: history/de-broglie
+    lesson: content/lessons/history/de-broglie.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: history/dirac-notation-history
+    lesson: content/lessons/history/dirac-notation-history.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: history/heisenberg
+    lesson: content/lessons/history/heisenberg.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: history/photoelectric-effect
+    lesson: content/lessons/history/photoelectric-effect.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: history/schrodinger
+    lesson: content/lessons/history/schrodinger.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: history/wavefunction
+    lesson: content/lessons/history/wavefunction.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/benchmarking
+    lesson: content/lessons/industry/benchmarking.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/chemistry-and-materials
+    lesson: content/lessons/industry/chemistry-and-materials.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/classical-baselines
+    lesson: content/lessons/industry/classical-baselines.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/cryptography
+    lesson: content/lessons/industry/cryptography.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/finance
+    lesson: content/lessons/industry/finance.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/logistics
+    lesson: content/lessons/industry/logistics.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/optimization
+    lesson: content/lessons/industry/optimization.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/quantum-algorithm-researcher
+    lesson: content/lessons/industry/quantum-algorithm-researcher.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/quantum-hardware
+    lesson: content/lessons/industry/quantum-hardware.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/quantum-information-science
+    lesson: content/lessons/industry/quantum-information-science.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/quantum-software-engineer
+    lesson: content/lessons/industry/quantum-software-engineer.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/sensing
+    lesson: content/lessons/industry/sensing.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/simulation
+    lesson: content/lessons/industry/simulation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/total-cost-of-ownership
+    lesson: content/lessons/industry/total-cost-of-ownership.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: industry/when-to-use-quantum
+    lesson: content/lessons/industry/when-to-use-quantum.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/channel-capacity
+    lesson: content/lessons/information-theory/channel-capacity.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/cptp-maps
+    lesson: content/lessons/information-theory/cptp-maps.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/data-processing-inequality
+    lesson: content/lessons/information-theory/data-processing-inequality.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/holevo-bound
+    lesson: content/lessons/information-theory/holevo-bound.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/kraus-operators
+    lesson: content/lessons/information-theory/kraus-operators.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/mutual-information
+    lesson: content/lessons/information-theory/mutual-information.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/no-cloning
+    lesson: content/lessons/information-theory/no-cloning.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/no-deleting
+    lesson: content/lessons/information-theory/no-deleting.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/relative-entropy
+    lesson: content/lessons/information-theory/relative-entropy.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/shannon-entropy
+    lesson: content/lessons/information-theory/shannon-entropy.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: information-theory/von-neumann-entropy
+    lesson: content/lessons/information-theory/von-neumann-entropy.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/circuit-model
+    lesson: content/lessons/introduction/circuit-model.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/classical-bits-and-logic
+    lesson: content/lessons/introduction/classical-bits-and-logic.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/first-measurement
+    lesson: content/lessons/introduction/first-measurement.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/first-qiskit-circuit
+    lesson: content/lessons/introduction/first-qiskit-circuit.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/first-superposition
+    lesson: content/lessons/introduction/first-superposition.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/nisq-and-fault-tolerance
+    lesson: content/lessons/introduction/nisq-and-fault-tolerance.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/quantum-advantage
+    lesson: content/lessons/introduction/quantum-advantage.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/qubit-in-one-minute
+    lesson: content/lessons/introduction/qubit-in-one-minute.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/reversible-computation
+    lesson: content/lessons/introduction/reversible-computation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: introduction/why-quantum
+    lesson: content/lessons/introduction/why-quantum.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/adjoint
+    lesson: content/lessons/mathematics/adjoint.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/basis
+    lesson: content/lessons/mathematics/basis.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/complex-conjugation
+    lesson: content/lessons/mathematics/complex-conjugation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/complex-exponentials
+    lesson: content/lessons/mathematics/complex-exponentials.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/complex-plane
+    lesson: content/lessons/mathematics/complex-plane.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/conditional-probability
+    lesson: content/lessons/mathematics/conditional-probability.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/derivatives
+    lesson: content/lessons/mathematics/derivatives.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/diagonalization
+    lesson: content/lessons/mathematics/diagonalization.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/discrete-probability
+    lesson: content/lessons/mathematics/discrete-probability.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/eigenvalues
+    lesson: content/lessons/mathematics/eigenvalues.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/eigenvectors
+    lesson: content/lessons/mathematics/eigenvectors.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/euler-formula
+    lesson: content/lessons/mathematics/euler-formula.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/expectation-and-variance
+    lesson: content/lessons/mathematics/expectation-and-variance.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/gradients
+    lesson: content/lessons/mathematics/gradients.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/hermitian-matrices
+    lesson: content/lessons/mathematics/hermitian-matrices.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/inner-products
+    lesson: content/lessons/mathematics/inner-products.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/kronecker-product
+    lesson: content/lessons/mathematics/kronecker-product.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/magnitude-and-phase
+    lesson: content/lessons/mathematics/magnitude-and-phase.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/matrices
+    lesson: content/lessons/mathematics/matrices.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/matrix-multiplication
+    lesson: content/lessons/mathematics/matrix-multiplication.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/operator-tensor-products
+    lesson: content/lessons/mathematics/operator-tensor-products.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/orthogonality
+    lesson: content/lessons/mathematics/orthogonality.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/partial-derivatives
+    lesson: content/lessons/mathematics/partial-derivatives.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/probability-distributions
+    lesson: content/lessons/mathematics/probability-distributions.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/tensor-product-states
+    lesson: content/lessons/mathematics/tensor-product-states.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/unitary-matrices
+    lesson: content/lessons/mathematics/unitary-matrices.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: mathematics/vectors
+    lesson: content/lessons/mathematics/vectors.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/basis-change-before-measurement
+    lesson: content/lessons/measurement/basis-change-before-measurement.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/born-rule
+    lesson: content/lessons/measurement/born-rule.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/expectation-values
+    lesson: content/lessons/measurement/expectation-values.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/measurement-collapse
+    lesson: content/lessons/measurement/measurement-collapse.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/observables
+    lesson: content/lessons/measurement/observables.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/povms
+    lesson: content/lessons/measurement/povms.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/projective-measurement
+    lesson: content/lessons/measurement/projective-measurement.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/quantum-tomography
+    lesson: content/lessons/measurement/quantum-tomography.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/repeated-measurement
+    lesson: content/lessons/measurement/repeated-measurement.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/weak-measurement
+    lesson: content/lessons/measurement/weak-measurement.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/x-basis-measurement
+    lesson: content/lessons/measurement/x-basis-measurement.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/y-basis-measurement
+    lesson: content/lessons/measurement/y-basis-measurement.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: measurement/z-basis-measurement
+    lesson: content/lessons/measurement/z-basis-measurement.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: multi-qubit/bell-states
+    lesson: content/lessons/multi-qubit/bell-states.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: multi-qubit/correlated-states
+    lesson: content/lessons/multi-qubit/correlated-states.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: multi-qubit/ghz-state
+    lesson: content/lessons/multi-qubit/ghz-state.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: multi-qubit/product-states
+    lesson: content/lessons/multi-qubit/product-states.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: multi-qubit/schmidt-decomposition
+    lesson: content/lessons/multi-qubit/schmidt-decomposition.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: multi-qubit/schmidt-rank
+    lesson: content/lessons/multi-qubit/schmidt-rank.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: multi-qubit/tensor-products-for-qubits
+    lesson: content/lessons/multi-qubit/tensor-products-for-qubits.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: multi-qubit/w-state
+    lesson: content/lessons/multi-qubit/w-state.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: networks/distributed-quantum-computing
+    lesson: content/lessons/networks/distributed-quantum-computing.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: networks/entanglement-distribution
+    lesson: content/lessons/networks/entanglement-distribution.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: networks/entanglement-purification
+    lesson: content/lessons/networks/entanglement-purification.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: networks/entanglement-swapping-network
+    lesson: content/lessons/networks/entanglement-swapping-network.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: networks/network-routing
+    lesson: content/lessons/networks/network-routing.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: networks/quantum-network-stack
+    lesson: content/lessons/networks/quantum-network-stack.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: networks/repeater-problem
+    lesson: content/lessons/networks/repeater-problem.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: networks/superdense-coding-network
+    lesson: content/lessons/networks/superdense-coding-network.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: networks/teleportation-network
+    lesson: content/lessons/networks/teleportation-network.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/amplitude-damping-channel
+    lesson: content/lessons/noise/amplitude-damping-channel.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/bit-flip-channel
+    lesson: content/lessons/noise/bit-flip-channel.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/depolarizing-channel
+    lesson: content/lessons/noise/depolarizing-channel.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/dynamical-decoupling
+    lesson: content/lessons/noise/dynamical-decoupling.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/ideal-vs-noisy-bell
+    lesson: content/lessons/noise/ideal-vs-noisy-bell.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/noise-vs-circuit-depth
+    lesson: content/lessons/noise/noise-vs-circuit-depth.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/noisy-grover
+    lesson: content/lessons/noise/noisy-grover.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/phase-flip-channel
+    lesson: content/lessons/noise/phase-flip-channel.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/probabilistic-error-cancellation
+    lesson: content/lessons/noise/probabilistic-error-cancellation.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/quantum-channels
+    lesson: content/lessons/noise/quantum-channels.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/readout-mitigation
+    lesson: content/lessons/noise/readout-mitigation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/thermal-relaxation
+    lesson: content/lessons/noise/thermal-relaxation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: noise/zero-noise-extrapolation
+    lesson: content/lessons/noise/zero-noise-extrapolation.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: paradoxes/delayed-choice
+    lesson: content/lessons/paradoxes/delayed-choice.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: paradoxes/double-slit-thought-experiment
+    lesson: content/lessons/paradoxes/double-slit-thought-experiment.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: paradoxes/epr
+    lesson: content/lessons/paradoxes/epr.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: paradoxes/quantum-eraser
+    lesson: content/lessons/paradoxes/quantum-eraser.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: paradoxes/quantum-zeno
+    lesson: content/lessons/paradoxes/quantum-zeno.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: paradoxes/schrodinger-cat
+    lesson: content/lessons/paradoxes/schrodinger-cat.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: paradoxes/stern-gerlach-thought-experiment
+    lesson: content/lessons/paradoxes/stern-gerlach-thought-experiment.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: paradoxes/wigners-friend
+    lesson: content/lessons/paradoxes/wigners-friend.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/double-slit
+    lesson: content/lessons/physics/double-slit.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/interpretations-overview
+    lesson: content/lessons/physics/interpretations-overview.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/mach-zehnder
+    lesson: content/lessons/physics/mach-zehnder.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/measurement-problem
+    lesson: content/lessons/physics/measurement-problem.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/polarization
+    lesson: content/lessons/physics/polarization.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/quantum-eraser
+    lesson: content/lessons/physics/quantum-eraser.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/stern-gerlach
+    lesson: content/lessons/physics/stern-gerlach.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/tunneling
+    lesson: content/lessons/physics/tunneling.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/uncertainty
+    lesson: content/lessons/physics/uncertainty.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: physics/wavefunction-collapse
+    lesson: content/lessons/physics/wavefunction-collapse.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/aer-simulation
+    lesson: content/lessons/programming/aer-simulation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/circuit-testing
+    lesson: content/lessons/programming/circuit-testing.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/cirq-overview
+    lesson: content/lessons/programming/cirq-overview.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/estimator-workflow
+    lesson: content/lessons/programming/estimator-workflow.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/experiment-tracking
+    lesson: content/lessons/programming/experiment-tracking.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/openqasm
+    lesson: content/lessons/programming/openqasm.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/pennylane-overview
+    lesson: content/lessons/programming/pennylane-overview.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/qiskit-installation
+    lesson: content/lessons/programming/qiskit-installation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/quantum-circuit-api
+    lesson: content/lessons/programming/quantum-circuit-api.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/reproducibility
+    lesson: content/lessons/programming/reproducibility.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/resource-estimation
+    lesson: content/lessons/programming/resource-estimation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/sampler-workflow
+    lesson: content/lessons/programming/sampler-workflow.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/statevector-simulation
+    lesson: content/lessons/programming/statevector-simulation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: programming/transpiler-api
+    lesson: content/lessons/programming/transpiler-api.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/amplitude-encoding
+    lesson: content/lessons/qml/amplitude-encoding.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/angle-encoding
+    lesson: content/lessons/qml/angle-encoding.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/basis-encoding
+    lesson: content/lessons/qml/basis-encoding.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/benchmarking-qml
+    lesson: content/lessons/qml/benchmarking-qml.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/feature-maps
+    lesson: content/lessons/qml/feature-maps.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/qml-resource-costs
+    lesson: content/lessons/qml/qml-resource-costs.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/qsvc
+    lesson: content/lessons/qml/qsvc.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/quantum-convolutional-networks
+    lesson: content/lessons/qml/quantum-convolutional-networks.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/quantum-kernels
+    lesson: content/lessons/qml/quantum-kernels.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/quantum-neural-networks
+    lesson: content/lessons/qml/quantum-neural-networks.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/variational-classifier
+    lesson: content/lessons/qml/variational-classifier.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qml/where-qml-helps
+    lesson: content/lessons/qml/where-qml-helps.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/bloch-sphere-intuition
+    lesson: content/lessons/qubits/bloch-sphere-intuition.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/bloch-sphere-mathematics
+    lesson: content/lessons/qubits/bloch-sphere-mathematics.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/computational-basis
+    lesson: content/lessons/qubits/computational-basis.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/density-matrix-introduction
+    lesson: content/lessons/qubits/density-matrix-introduction.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/gate-geometries
+    lesson: content/lessons/qubits/gate-geometries.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/global-phase
+    lesson: content/lessons/qubits/global-phase.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/ket-bra-notation
+    lesson: content/lessons/qubits/ket-bra-notation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/measurement-probability
+    lesson: content/lessons/qubits/measurement-probability.md
+    primaryRenderer: circuit
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/normalization
+    lesson: content/lessons/qubits/normalization.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/qubit-state
+    lesson: content/lessons/qubits/qubit-state.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/relative-phase
+    lesson: content/lessons/qubits/relative-phase.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/rotations-on-bloch-sphere
+    lesson: content/lessons/qubits/rotations-on-bloch-sphere.md
+    primaryRenderer: scene3d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: qubits/statevector
+    lesson: content/lessons/qubits/statevector.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: sensing/atomic-clocks
+    lesson: content/lessons/sensing/atomic-clocks.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: sensing/gravimetry
+    lesson: content/lessons/sensing/gravimetry.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: sensing/heisenberg-limit
+    lesson: content/lessons/sensing/heisenberg-limit.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: sensing/interferometry
+    lesson: content/lessons/sensing/interferometry.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: sensing/magnetometry
+    lesson: content/lessons/sensing/magnetometry.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: sensing/squeezed-states
+    lesson: content/lessons/sensing/squeezed-states.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: sensing/standard-quantum-limit
+    lesson: content/lessons/sensing/standard-quantum-limit.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: simulation/digital-vs-analog
+    lesson: content/lessons/simulation/digital-vs-analog.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: simulation/fermionic-models
+    lesson: content/lessons/simulation/fermionic-models.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: simulation/first-order-trotter
+    lesson: content/lessons/simulation/first-order-trotter.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: simulation/hamiltonian-simulation
+    lesson: content/lessons/simulation/hamiltonian-simulation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: simulation/higher-order-formulas
+    lesson: content/lessons/simulation/higher-order-formulas.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: simulation/ising-model
+    lesson: content/lessons/simulation/ising-model.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: simulation/product-formula
+    lesson: content/lessons/simulation/product-formula.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: simulation/spin-systems
+    lesson: content/lessons/simulation/spin-systems.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: simulation/why-quantum-simulation
+    lesson: content/lessons/simulation/why-quantum-simulation.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/ansatz
+    lesson: content/lessons/variational/ansatz.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/barren-plateaus
+    lesson: content/lessons/variational/barren-plateaus.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/cost-functions
+    lesson: content/lessons/variational/cost-functions.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/expectation-values
+    lesson: content/lessons/variational/expectation-values.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/expressibility
+    lesson: content/lessons/variational/expressibility.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/finite-difference-vs-analytic-gradient
+    lesson: content/lessons/variational/finite-difference-vs-analytic-gradient.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/gradient-descent
+    lesson: content/lessons/variational/gradient-descent.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/parameter-shift-rule
+    lesson: content/lessons/variational/parameter-shift-rule.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/parameters
+    lesson: content/lessons/variational/parameters.md
+    primaryRenderer: diagram2d
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/qaoa
+    lesson: content/lessons/variational/qaoa.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml
+  - id: variational/vqe
+    lesson: content/lessons/variational/vqe.md
+    primaryRenderer: graph
+    theme: content/visualizations/theme/nord-matte.yaml

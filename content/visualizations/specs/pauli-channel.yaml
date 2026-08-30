@@ -1,0 +1,25 @@
+id: viz-pauli-channel
+title: Pauli Channel
+theme: ../theme/nord-matte.yaml
+renderer: diagram2d
+summary: Noise channel flow with Pauli error probability sliders.
+linkedEquation: content/equations/pauli-channel.yaml
+visualLayers:
+  - noise-stack
+interaction:
+  controls:
+    - play-pause
+    - reset
+    - explain-with-copilot
+  accessibility:
+    keyboard: true
+    reducedMotion: true
+    alt: Noise channel flow with Pauli error probability sliders.
+dataBindings:
+  simulationResult: optional
+  quantumCircuit: optional
+  equationParameters: optional
+style:
+  surface: matte-glass-card
+  labelTreatment: bright-accent-labels
+  depth: subtle-layered-shadows

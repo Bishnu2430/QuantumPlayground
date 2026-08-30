@@ -1,0 +1,26 @@
+id: viz-grover-iteration
+title: Grover Iteration
+theme: ../theme/nord-matte.yaml
+renderer: scene3d
+summary: Amplitude amplification geometry with oracle reflection and diffusion.
+linkedEquation: content/equations/grover-iteration.yaml
+visualLayers:
+  - amplitude-bars
+  - iteration-timeline
+interaction:
+  controls:
+    - play-pause
+    - reset
+    - explain-with-copilot
+  accessibility:
+    keyboard: true
+    reducedMotion: true
+    alt: Amplitude amplification geometry with oracle reflection and diffusion.
+dataBindings:
+  simulationResult: optional
+  quantumCircuit: optional
+  equationParameters: optional
+style:
+  surface: matte-glass-card
+  labelTreatment: bright-accent-labels
+  depth: subtle-layered-shadows

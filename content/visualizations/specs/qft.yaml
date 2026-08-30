@@ -1,0 +1,26 @@
+id: viz-qft
+title: Qft
+theme: ../theme/nord-matte.yaml
+renderer: circuit
+summary: QFT phase ladder, controlled rotations, and phase wheel.
+linkedEquation: content/equations/qft.yaml
+visualLayers:
+  - phase-wheel
+  - controlled-rotation-map
+interaction:
+  controls:
+    - play-pause
+    - reset
+    - explain-with-copilot
+  accessibility:
+    keyboard: true
+    reducedMotion: true
+    alt: QFT phase ladder, controlled rotations, and phase wheel.
+dataBindings:
+  simulationResult: optional
+  quantumCircuit: optional
+  equationParameters: optional
+style:
+  surface: matte-glass-card
+  labelTreatment: bright-accent-labels
+  depth: subtle-layered-shadows
