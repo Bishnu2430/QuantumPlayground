@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"QuantumCircuit","type":"object","required":["numQubits","operations"],"properties":{"numQubits":{"type":"integer","minimum":1},"numClbits":{"type":"integer","minimum":0},"operations":{"type":"array","items":{"type":"object"}}}}
