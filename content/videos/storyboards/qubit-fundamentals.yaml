@@ -1,0 +1,19 @@
+id: video-qubit-fundamentals
+title: Qubit Fundamentals
+theme: content/visualizations/theme/nord-matte.yaml
+format: explainer-storyboard
+runtimeTargetSeconds: 90
+shots:
+  - id: opener
+    visual: content/images/diagrams/quantum-workflow.svg
+    narration: Introduce the concept with a clean matte surface and bright labeled accent.
+  - id: interactive-demo
+    visual: content/visualizations/specs/qubit-state.yaml
+    narration: Show the interactive state change while labels explain cause and effect.
+  - id: recap
+    visual: content/images/diagrams/circuit-to-result.svg
+    narration: Connect the visual idea to circuit execution and measured output.
+rendering:
+  captions: true
+  transcriptRequired: true
+  exportTargets: [web-h264, webm]

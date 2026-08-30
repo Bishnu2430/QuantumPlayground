@@ -1,0 +1,22 @@
+id: scene-bloch-sphere
+theme: content/visualizations/theme/nord-matte.yaml
+engine: threejs-react-three-fiber
+camera:
+  type: perspective
+  position: [3.0, 2.2, 4.0]
+  target: [0, 0, 0]
+lighting:
+  ambient: 0.72
+  key: 0.86
+materials:
+  defaultSurface: matte
+  glassPanels: true
+  bloom: subtle
+objects:
+  - id: primary-model
+    type: procedural
+    role: bloch sphere
+interactions:
+  orbit: true
+  hoverLabels: true
+  parameterScrub: true

@@ -1,0 +1,25 @@
+id: viz-normalization
+title: Normalization
+theme: ../theme/nord-matte.yaml
+renderer: equation
+summary: Amplitude normalization checkpoint with geometric vector panel.
+linkedEquation: content/equations/normalization.yaml
+visualLayers:
+  - unit-circle
+interaction:
+  controls:
+    - play-pause
+    - reset
+    - explain-with-copilot
+  accessibility:
+    keyboard: true
+    reducedMotion: true
+    alt: Amplitude normalization checkpoint with geometric vector panel.
+dataBindings:
+  simulationResult: optional
+  quantumCircuit: optional
+  equationParameters: optional
+style:
+  surface: matte-glass-card
+  labelTreatment: bright-accent-labels
+  depth: subtle-layered-shadows

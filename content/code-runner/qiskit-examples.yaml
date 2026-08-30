@@ -1,0 +1,21 @@
+id: qiskit-code-runner-examples
+theme: content/visualizations/theme/nord-matte.yaml
+sandbox: classroom-restricted
+examples:
+  - id: bell-state
+    title: Bell state simulation
+    code: |
+      from qiskit import QuantumCircuit
+      qc = QuantumCircuit(2, 2)
+      qc.h(0)
+      qc.cx(0, 1)
+      qc.measure([0, 1], [0, 1])
+      print(qc)
+  - id: single-qubit-superposition
+    title: Single qubit superposition
+    code: |
+      from qiskit import QuantumCircuit
+      qc = QuantumCircuit(1, 1)
+      qc.h(0)
+      qc.measure(0, 0)
+      print(qc)

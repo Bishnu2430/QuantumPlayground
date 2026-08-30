@@ -1,0 +1,48 @@
+id: visual-equation-manifest
+theme: content/visualizations/theme/nord-matte.yaml
+equations:
+  - source: content/equations/bell-state.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/born-rule.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/density-matrix.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/grover-complexity.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/grover-iteration.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/hadamard-action.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/no-cloning.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/normalization.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/pauli-channel.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/qaoa-objective.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/qft.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/qubit-state.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/teleportation-identity.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/von-neumann-entropy.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps
+  - source: content/equations/vqe-energy.yaml
+    renderer: equation-panel
+    annotationStyle: labeled-steps

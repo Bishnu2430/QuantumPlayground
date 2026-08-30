@@ -1,0 +1,17 @@
+id: experiment-visual-first-measurement
+experiment: content/experiments/first-measurement.yaml
+theme: content/visualizations/theme/nord-matte.yaml
+panels:
+  - type: circuit
+    renderer: CircuitCanvas
+    supportsSimulation: true
+  - type: graph
+    renderer: ProbabilityChart
+    data: simulation.probabilities
+  - type: codeRunner
+    renderer: QiskitCodeRunner
+    language: python
+    sandbox: classroom-restricted
+  - type: copilot
+    renderer: CopilotPanel
+    context: [experiment, circuit, latestResult, code]

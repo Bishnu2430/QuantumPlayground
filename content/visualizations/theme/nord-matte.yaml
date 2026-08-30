@@ -1,0 +1,54 @@
+id: nord-matte-quantum-lab
+version: 1
+purpose: Shared visual language for Quantum Lab content-side scenes, diagrams, graphs, equations, videos, and interactive activities.
+style:
+  typography:
+    heading: Inter Tight
+    body: Inter
+    mono: JetBrains Mono
+    math: KaTeX Main
+    labelWeight: 600
+  shape:
+    radiusSm: 10
+    radiusMd: 16
+    radiusLg: 28
+    strokeWidth: 1.25
+    glassBlurPx: 18
+    shadow: soft-depth
+  motion:
+    durationMs: 420
+    easing: cubic-bezier(0.22, 1, 0.36, 1)
+    reducedMotion: fade-only
+light:
+  surface: "#ECEFF4"
+  surfaceRaised: "#F3F5F8"
+  surfaceGlass: "rgba(236,239,244,0.68)"
+  border: "rgba(76,86,106,0.18)"
+  text: "#2E3440"
+  textMuted: "#5E6A7D"
+  grid: "rgba(76,86,106,0.13)"
+  accentPrimary: "#5E81AC"
+  accentSecondary: "#88C0D0"
+  accentTertiary: "#8FBCBB"
+  success: "#A3BE8C"
+  warning: "#EBCB8B"
+  danger: "#BF616A"
+dark:
+  surface: "#1F2430"
+  surfaceRaised: "#252B38"
+  surfaceGlass: "rgba(31,36,48,0.68)"
+  border: "rgba(216,222,233,0.16)"
+  text: "#ECEFF4"
+  textMuted: "#B7C0D1"
+  grid: "rgba(216,222,233,0.12)"
+  accentPrimary: "#88C0D0"
+  accentSecondary: "#81A1C1"
+  accentTertiary: "#B48EAD"
+  success: "#A3BE8C"
+  warning: "#EBCB8B"
+  danger: "#BF616A"
+usageRules:
+  - Prefer off-white matte surfaces instead of pure white in light mode.
+  - Use transparent raised panels only where they clarify hierarchy or depth.
+  - Keep labels high contrast and short.
+  - Animate conceptual state changes, not decorative background movement.
