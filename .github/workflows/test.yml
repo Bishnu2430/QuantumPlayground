@@ -1,0 +1,61 @@
+name: Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main", "master", "develop"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  backend-unit:
+    name: Backend unit tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/api
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: latest
+      - run: uv python install 3.13
+      - run: uv sync --frozen --all-extras --dev
+      - run: uv run pytest -q tests/unit
+
+  quantum:
+    name: Quantum engine tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/api
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: latest
+      - run: uv python install 3.13
+      - run: uv sync --frozen --all-extras --dev
+      - run: uv run pytest -q tests/quantum
+
+  ai:
+    name: AI tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/api
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: latest
+      - run: uv python install 3.13
+      - run: uv sync --frozen --all-extras --dev
+      - run: uv run pytest -q tests/ai
+        env:
+          APP_ENV: test
+          GROQ_API_KEY: test-key
+          GROQ_MODEL: openai/gpt-oss-120b
+          JWT_SECRET: ci-test-secret
