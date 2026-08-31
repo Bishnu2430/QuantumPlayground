@@ -3,8 +3,8 @@ services:
     image: pgvector/pgvector:pg18-trixie
     environment:
       POSTGRES_DB: quantum_lab
-      POSTGRES_USER: bishnu
-      POSTGRES_PASSWORD: bishnu345
+      POSTGRES_USER: quantum
+      POSTGRES_PASSWORD: quantum
     ports:
       - "5432:5432"
     volumes:

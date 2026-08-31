@@ -9,7 +9,11 @@ cleanup() {
 }
 trap cleanup EXIT INT TERM
 
-docker compose up -d postgres redis
+if command -v docker >/dev/null 2>&1; then
+  docker compose up -d postgres redis
+else
+  echo "docker is not available; continuing with local services/default SQLite fallback."
+fi
 
 (
   cd apps/api

@@ -12,14 +12,21 @@ export IMAGE_TAG
   exit 1
 }
 
+COMPOSE_FILES=(-f docker-compose.yml)
+if [[ -f docker-compose.prod.yml ]]; then
+  COMPOSE_FILES+=(-f docker-compose.prod.yml)
+else
+  echo "docker-compose.prod.yml not found; deploying with docker-compose.yml only."
+fi
+
 echo "Deploying Quantum Lab: ${IMAGE_TAG}"
 
-docker compose -f docker-compose.yml -f docker-compose.prod.yml pull || true
-docker compose -f docker-compose.yml -f docker-compose.prod.yml build
-docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+docker compose "${COMPOSE_FILES[@]}" pull || true
+docker compose "${COMPOSE_FILES[@]}" build
+docker compose "${COMPOSE_FILES[@]}" up -d
 
 sleep 5
-docker compose -f docker-compose.yml -f docker-compose.prod.yml ps
+docker compose "${COMPOSE_FILES[@]}" ps
 
 ./scripts/migrate.sh
 

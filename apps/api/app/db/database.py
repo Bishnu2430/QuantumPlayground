@@ -1,28 +1,20 @@
-from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
-from sqlalchemy.pool import NullPool
+from sqlalchemy import create_engine
+from sqlalchemy.orm import Session, sessionmaker
 
 from app.core.config import get_settings
+from app.db.models import Base
 
 settings = get_settings()
-
-# Create async engine
-engine = create_async_engine(
-    settings.database_url,
-    echo=settings.environment == "development",
-    pool_pre_ping=True,
-    poolclass=NullPool if settings.environment == "development" else None,
-)
-
-# Session factory
-AsyncSessionLocal = async_sessionmaker(
-    engine,
-    class_=AsyncSession,
-    expire_on_commit=False,
-    autoflush=False,
-)
+sync_database_url = settings.database_url.replace("sqlite+aiosqlite", "sqlite+pysqlite").replace("postgresql+asyncpg", "postgresql+psycopg")
+engine = create_engine(sync_database_url, echo=settings.environment == "development", pool_pre_ping=True)
+SessionLocal = sessionmaker(bind=engine, expire_on_commit=False, autoflush=False)
 
 
-async def get_session() -> AsyncSession:
-    """Dependency for getting a database session."""
-    async with AsyncSessionLocal() as session:
+def init_db() -> None:
+    from app.db.models import circuit, conversation, lesson, progress, simulation, user  # noqa: F401
+    Base.metadata.create_all(bind=engine)
+
+
+def get_session() -> Session:
+    with SessionLocal() as session:
         yield session
