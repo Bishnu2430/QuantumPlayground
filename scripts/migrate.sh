@@ -20,7 +20,9 @@ fi
 
 (
   cd apps/api
-  uv run alembic upgrade head
+  PYTHON_BIN=".venv/bin/python"
+  [[ -x "$PYTHON_BIN" ]] || { echo "ERROR: apps/api/.venv is missing. Run ./scripts/setup.sh first." >&2; exit 1; }
+  "$PYTHON_BIN" -m alembic upgrade head
 )
 
 echo "Database migrations complete."

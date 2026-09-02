@@ -1,17 +1,3 @@
-import Link from "next/link";
-
-const sections = ["learn","laboratory","simulator","experiments","algorithms","playground","copilot","dashboard","settings"];
-
-export default function Page() {
-  return (
-    <main className="min-h-screen p-10">
-      <h1 className="text-4xl font-semibold">Settings</h1>
-      <p className="mt-3 max-w-2xl text-muted-foreground">Settings workspace scaffold.</p>
-      <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {sections.map((section) => (
-          <Link className="rounded-xl border p-4 hover:bg-muted" href={`/${section}`} key={section}>{section}</Link>
-        ))}
-      </div>
-    </main>
-  );
-}
+"use client";
+import { ThemeToggle } from "@/components/app/ThemeToggle";
+export default function Settings() { return <div className="dashboard"><header className="topbar"><div><p className="eyebrow">Preferences</p><h1>Make it yours.</h1></div></header><section className="recent-card settings-card"><div><div><p className="eyebrow">Appearance</p><h2>Color theme</h2><p>Switch between the soft Nordic light and dark palettes. Your choice is saved in this browser.</p></div><ThemeToggle/></div></section></div>; }

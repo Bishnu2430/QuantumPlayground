@@ -1,4 +1,3 @@
-export default async function DetailPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  return <main className="p-10"><h1 className="text-3xl font-semibold">Experiments: {slug}</h1></main>;
-}
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
+export default async function DetailPage({ params }: { params: Promise<{ slug: string }> }) { const { slug } = await params; return <article className="dashboard detail-page"><Link href="/experiments" className="underlined-link"><ArrowLeft size={15}/> Experiments</Link><p className="eyebrow">Quantum experiment</p><h1>{slug.replaceAll("-", " ")}</h1><p>Use this experiment as a prompt for hands-on investigation. The circuit workspace provides immediate simulated observations.</p><Link className="primary-button" href="/laboratory">Start experiment</Link></article>; }

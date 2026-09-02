@@ -1,4 +1,2 @@
-export default async function LessonPage({ params }: { params: Promise<{ topic: string; lesson: string }> }) {
-  const { topic, lesson } = await params;
-  return <main className="p-10"><h1 className="text-3xl font-semibold">{topic} / {lesson}</h1></main>;
-}
+import Link from "next/link";
+export default async function LessonPage({ params }: { params: Promise<{ topic: string; lesson: string }> }) { const { topic, lesson } = await params; return <article className="dashboard detail-page"><p className="eyebrow">{topic.replaceAll("-", " ")}</p><h1>{lesson.replaceAll("-", " ")}</h1><p>This lesson is paired with the circuit laboratory so you can test the idea immediately and ask the copilot for a tailored explanation.</p><Link className="primary-button" href="/laboratory">Try it in the laboratory</Link></article>; }

@@ -17,7 +17,12 @@ fi
 
 (
   cd apps/api
-  exec uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+  PYTHON_BIN=".venv/bin/python"
+  if [[ ! -x "$PYTHON_BIN" ]]; then
+    echo "ERROR: apps/api/.venv is missing. Run ./scripts/setup.sh first." >&2
+    exit 1
+  fi
+  exec "$PYTHON_BIN" -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ) &
 API_PID=$!
 
