@@ -5,14 +5,25 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
 cleanup() {
-  kill "${API_PID:-}" "${WEB_PID:-}" 2>/dev/null || true
+  [[ -n "${API_PID:-}" ]] && kill "$API_PID" 2>/dev/null || true
+  [[ -n "${WEB_PID:-}" ]] && kill "$WEB_PID" 2>/dev/null || true
 }
 trap cleanup EXIT INT TERM
 
-if command -v docker >/dev/null 2>&1; then
+if ! command -v pnpm >/dev/null 2>&1; then
+  echo "ERROR: pnpm is required. Run: corepack enable && corepack prepare pnpm@latest --activate" >&2
+  exit 1
+fi
+
+if [[ ! -x apps/api/.venv/bin/python ]]; then
+  echo "ERROR: apps/api/.venv is missing. Run ./scripts/setup.sh first." >&2
+  exit 1
+fi
+
+if command -v docker >/dev/null 2>&1 && docker info >/dev/null 2>&1; then
   docker compose up -d postgres redis
 else
-  echo "docker is not available; continuing with local services/default SQLite fallback."
+  echo "docker is unavailable; continuing with local services/default SQLite fallback."
 fi
 
 (
@@ -37,4 +48,9 @@ echo "Backend:  http://localhost:8000"
 echo "Docs:     http://localhost:8000/docs"
 echo "Press Ctrl+C to stop."
 
-wait
+set +e
+wait -n "$API_PID" "$WEB_PID"
+EXIT_CODE=$?
+set -e
+echo "A development service exited (code $EXIT_CODE); stopping the other service." >&2
+exit "$EXIT_CODE"
