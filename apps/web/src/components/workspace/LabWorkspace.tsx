@@ -25,14 +25,10 @@ const gateName: Record<string, string> = {
 const initial: Circuit = {
   numQubits: 2,
   numClbits: 2,
-  operations: [
-    { gate: "h", targets: [0], moment: 0 },
-    { gate: "cx", controls: [0], targets: [1], moment: 1 },
-    { gate: "measure", targets: [0, 1], clbits: [0, 1], moment: 2 },
-  ],
+  operations: [],
 };
-export function LabWorkspace() {
-  const [circuit, setCircuit] = useState<Circuit>(initial),
+export function LabWorkspace({ initialCircuit }: { initialCircuit?: Circuit }) {
+  const [circuit, setCircuit] = useState<Circuit>(initialCircuit ?? initial),
     [message, setMessage] = useState("Explain this Bell-state circuit.");
   const simulation = useSimulation();
   const copilot = useCopilot();
@@ -67,8 +63,11 @@ export function LabWorkspace() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Interactive workspace</p>
-            <h1>Bell state laboratory</h1>
-            <p>Build a circuit, observe its output, and ask why it works.</p>
+            <h1>Circuit simulator</h1>
+            <p>
+              Assemble a quantum circuit, run it, and inspect the measured
+              output.
+            </p>
           </div>
           <button className="primary-button" onClick={run} disabled={busy}>
             <Play size={16} />
@@ -78,7 +77,7 @@ export function LabWorkspace() {
         <div className="lab-card circuit-card">
           <div className="card-top">
             <div>
-              <strong>Circuit</strong>
+              <strong>Quantum circuit</strong>
               <span>
                 {circuit.numQubits} qubits · {operations.length} operations
               </span>
@@ -162,8 +161,10 @@ export function LabWorkspace() {
             <h3>{result ? "Entanglement observed" : "Ready to simulate"}</h3>
             <p>
               {result
-                ? "The two qubits are correlated: measurements produce matching classical states."
-                : "The prepared Bell circuit creates a maximally entangled two-qubit state."}
+                ? "The simulator returned a measurement distribution for this circuit."
+                : circuit.operations.length
+                  ? "Add gates, then run the circuit to inspect its state and measurements."
+                  : "Start with an empty circuit and add gates from the palette."}
             </p>
             <Sparkles size={22} />
           </div>

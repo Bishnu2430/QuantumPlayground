@@ -45,6 +45,8 @@ def run_simulation(request: SimulationRequest, max_qubits: int = 12) -> Simulati
             durationMs=int((perf_counter() - started) * 1000),
         )
     simulator = AerSimulator(seed_simulator=request.seed)
+    if not any(operation.gate == "measure" for operation in request.circuit.operations):
+        qc.measure(range(request.circuit.numQubits), range(request.circuit.numQubits))
     result = simulator.run(qc, shots=request.shots).result()
     counts = {str(key): int(value) for key, value in result.get_counts().items()}
     probabilities = {key: value / request.shots for key, value in counts.items()}

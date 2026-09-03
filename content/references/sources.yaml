@@ -14,3 +14,6 @@ references:
   - {id: openqasm3, type: specification, title: OpenQASM 3, role: interoperability reference}
   - {id: preskill-notes, type: open-education, title: Lecture Notes for Ph219/CS219 Quantum Computation, author: John Preskill, role: advanced reference}
   - {id: nielsen-chuang-bell, type: book-section, title: Bell states and quantum information, role: entanglement reference}
+  - {id: qiskit-hello-world-2026, type: official-documentation, title: Run your first circuit on hardware, publisher: IBM Quantum, url: https://quantum.cloud.ibm.com/docs/en/guides/hello-world, role: circuit construction and bit ordering}
+  - {id: qiskit-aer-simulation-2026, type: official-documentation, title: Exact and noisy simulation with Qiskit Aer primitives, publisher: IBM Quantum, url: https://quantum.cloud.ibm.com/docs/en/guides/simulate-with-qiskit-aer, role: ideal and noisy simulation}
+  - {id: qiskit-visualization-2026, type: official-documentation, title: Visualize circuits, publisher: IBM Quantum, url: https://quantum.cloud.ibm.com/docs/en/guides/visualize-circuits, role: circuit rendering and visual analysis}

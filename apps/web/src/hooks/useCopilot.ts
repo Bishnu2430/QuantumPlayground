@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { api, type Circuit } from "@/lib/api/client";
+import { api, type Circuit, type CopilotDepth } from "@/lib/api/client";
 
 export function useCopilot() {
   const [answer, setAnswer] = useState("");
@@ -7,11 +7,15 @@ export function useCopilot() {
   const [isAsking, setIsAsking] = useState(false);
   const [error, setError] = useState("");
 
-  const ask = async (message: string, circuit?: Circuit) => {
+  const ask = async (
+    message: string,
+    circuit?: Circuit,
+    depth: CopilotDepth = "undergraduate",
+  ) => {
     setIsAsking(true);
     setError("");
     try {
-      const response = await api.chat(message, circuit);
+      const response = await api.chat(message, circuit, depth);
       setAnswer(response.answer);
       setModel(response.model);
       return response;

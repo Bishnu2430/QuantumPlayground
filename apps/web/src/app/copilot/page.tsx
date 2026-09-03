@@ -1,2 +1,4 @@
-import { LabWorkspace } from "@/components/workspace/LabWorkspace";
-export default function Copilot() { return <LabWorkspace/>; }
+import { CopilotWorkspace } from "@/components/ai/CopilotWorkspace";
+export default function Copilot() {
+  return <CopilotWorkspace />;
+}

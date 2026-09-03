@@ -1,2 +1,9 @@
-import Link from "next/link";
-export default async function TopicPage({ params }: { params: Promise<{ topic: string }> }) { const { topic } = await params; return <main className="dashboard detail-page"><p className="eyebrow">Learning domain</p><h1>{topic.replaceAll("-", " ")}</h1><p>Choose a concept from the learning library, then turn the theory into a circuit inside the laboratory.</p><Link className="primary-button" href="/learn">Browse lessons</Link></main>; }
+import { LessonReader } from "@/components/lessons/LessonReader";
+export default async function TopicPage({
+  params,
+}: {
+  params: Promise<{ topic: string }>;
+}) {
+  const { topic } = await params;
+  return <LessonReader slug={topic} />;
+}

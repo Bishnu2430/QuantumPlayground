@@ -1,2 +1,4 @@
-import { ResourceCatalog } from "@/components/workspace/ResourceCatalog";
-export default function Page() { return <ResourceCatalog kind="experiments"/>; }
+import { LessonQuiz } from "@/components/quiz/LessonQuiz";
+export default function Page() {
+  return <LessonQuiz />;
+}
